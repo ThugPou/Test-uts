@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="50dp">
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
 
     <EditText
@@ -16,54 +22,54 @@
         android:layout_height="50dp"
         android:text="Nama Alumni"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Tempat Lahir"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Tempat Lahir"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:inputType="date"
-        android:text="Tanggal Lahir"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:inputType="date"-->
+<!--        android:text="Tanggal Lahir"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Alamat"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Alamat"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Agama"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Agama"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:inputType="number"
-        android:text="tlp/hp"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="tlp/hp"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Tahun Masuk"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Tahun Masuk"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:inputType="number"
-        android:text="Tahun Lulus"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="Tahun Lulus"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:inputType="number"
-        android:text="Pekerjaan"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:inputType="number"-->
+<!--        android:text="Pekerjaan"/>-->
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Jabatan"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Jabatan"/>-->
 
     <Button
         android:layout_width="wrap_content"
@@ -71,4 +77,6 @@
         android:layout_gravity="center"
         android:text="Simpan"/>
 
-</LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
