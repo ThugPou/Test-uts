@@ -13,14 +13,28 @@
 
 
     <EditText
+        android:id="@+id/full_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="Nim"/>
+        android:hint="Nim"/>
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="Nama Alumni"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="No Tlp"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit_nama"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="Nama Alumni"/>-->
 
 <!--    <EditText-->
 <!--        android:layout_width="match_parent"-->
@@ -39,6 +53,7 @@
 <!--        android:text="Alamat"/>-->
 
 <!--    <EditText-->
+<!--        android:id="@+id/edit_agama"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="50dp"-->
 <!--        android:text="Agama"/>-->
@@ -72,10 +87,11 @@
 <!--        android:text="Jabatan"/>-->
 
     <Button
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Simpan"/>
+        android:text="Save"/>
 
     </LinearLayout>
 

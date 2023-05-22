@@ -19,9 +19,6 @@ class MainActivity : AppCompatActivity() {
         val txtpassword = findViewById<EditText>(R.id.txt_password)
 
         val sharePreference = getSharedPreferences("MY_PREF", Context.MODE_PRIVATE)
-        val getemail = sharePreference.getString("EMAIL", "")
-        val getpassword = sharePreference.getString("PASSWORD", "")
-
 
         btnlogin.setOnClickListener{
             val email = txtemail.text.toString()
@@ -42,9 +39,6 @@ class MainActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(applicationContext, "Data Login Salah", Toast.LENGTH_SHORT).show()
             }
-
-
-
         }
 
     }

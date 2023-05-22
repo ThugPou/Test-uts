@@ -12,9 +12,11 @@
         android:theme="@style/Theme.Utstest"
         tools:targetApi="31">
         <activity
-            android:name=".DataAlumniMahasiswa"
+            android:name=".DetailAlumni"
             android:exported="false" />
-        <activity android:name=".TambahDataMahasiswa"/>
+        <activity
+            android:name=".DataAlumniMahasiswa"/>
+        <activity android:name=".TambahDataMahasiswa" />
         <activity
             android:name=".HalamanProfile"
             android:exported="false" />
@@ -30,7 +32,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HalamanUtama"/>
+        <activity android:name=".HalamanUtama" />
     </application>
 
 </manifest>
